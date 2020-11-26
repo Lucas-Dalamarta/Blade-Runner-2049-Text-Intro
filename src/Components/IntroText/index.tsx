@@ -2,7 +2,7 @@ import TextParagraphs from '../TextParagraphs'
 
 const IntroText = () => {
   return (
-    <>
+    <div>
       <TextParagraphs>
         <strong>REPLICANTS</strong> ARE BIOENGINEERED HUMANS, DESIGNED BY TYRELL
         CORPORATION <br />
@@ -38,7 +38,7 @@ const IntroText = () => {
       <TextParagraphs>
         <strong>BLADE RUNNER</strong>
       </TextParagraphs>
-    </>
+    </div>
   );
 }
 
