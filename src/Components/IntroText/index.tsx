@@ -1,41 +1,43 @@
+import TextParagraphs from '../TextParagraphs'
+
 const IntroText = () => {
   return (
     <>
-      <p>
+      <TextParagraphs>
         <strong>REPLICANTS</strong> ARE BIOENGINEERED HUMANS, DESIGNED BY TYRELL
         CORPORATION <br />
         FOR USE OFF-WORLD. THEIR ENHANCED STRENGHT MADE THEM IDEAL SLAVE LABOR
-      </p>
+      </TextParagraphs>
 
-      <p>
+      <TextParagraphs>
         AFTER A SERIES OF VIOLENT REBELLIONS, THEIR MANUFACTURE BECAME <br />
         PROHIBITED AND TYRELL CORP WENT BANKRUPT.
-      </p>
+      </TextParagraphs>
 
-      <p>
+      <TextParagraphs>
         THE COLLAPSE OF ECOSYSTEMS IN THE MID 2020S LED TO THE RISE OF
         INDUSTRIALIST <br />
         NIANDER WALLACE, WHOSE MASTERY OF SYNTHETIC FARMING AVERTED FAMINE.
-      </p>
+      </TextParagraphs>
 
-      <p>
+      <TextParagraphs>
         WALLACE ACQUIRED THE REMAINS OF TYRELL CORP AND CREATED A NEW <br />
         LINE OF REPLICANTS WHO OBEY.
-      </p>
+      </TextParagraphs>
 
-      <p>
+      <TextParagraphs>
         MANY OLDER MODEL REPLICANTS — NEXUS 8S WITH OPEN-ENDED LIFESPANS —
         SURVIVED. <br />
         THEY ARE HUNTED DOWN AND 'RETIRED'.
-      </p>
+      </TextParagraphs>
 
-      <p>
+      <TextParagraphs>
         THOSE THAT HUNT THEM STILL GO BY THE NAME...
-      </p>
+      </TextParagraphs>
 
-      <p>
+      <TextParagraphs>
         <strong>BLADE RUNNER</strong>
-      </p>
+      </TextParagraphs>
     </>
   );
 }

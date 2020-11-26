@@ -5,6 +5,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #222;
   }
 
   html {
@@ -17,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: 'Lato', sans-serif;
+    color: #fff;
   }
 `;
 
