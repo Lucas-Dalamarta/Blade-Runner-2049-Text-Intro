@@ -1,0 +1,21 @@
+{
+  "name": "Intro Text",
+  "short_name": "React Avançado",
+  "icons": [
+    {
+      "src": "./lamp-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "./lamp-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#222",
+  "description": "Blade runner 2049's intro text",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#222"
+}

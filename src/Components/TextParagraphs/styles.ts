@@ -34,7 +34,7 @@ export const Paragraph = styled.div<ParagraphProps>`
   }
 
   @media (max-width: 800px) {
-    font-size: 1rem;
+    font-size: 1.2rem;
 
     & + div {
       margin-top: 28px;
