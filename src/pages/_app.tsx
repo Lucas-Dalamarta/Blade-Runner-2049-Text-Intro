@@ -6,7 +6,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Intro Text</title>
         <link rel="icon" href="/favicon.ico" />
 
         <link rel="preconnect" href="https://fonts.gstatic.com" />
