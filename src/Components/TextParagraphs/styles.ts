@@ -14,7 +14,6 @@ type ParagraphProps = {
 }
 
 export const Paragraph = styled.div<ParagraphProps>`
-  font-family: "Lato", sans-serif;
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: 3px;
