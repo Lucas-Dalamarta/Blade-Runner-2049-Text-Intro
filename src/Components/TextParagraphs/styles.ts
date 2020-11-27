@@ -9,7 +9,11 @@ const fadeIn = keyframes`
   }
 `;
 
-export const Paragraph = styled.div`
+type ParagraphProps = {
+  delay: number
+}
+
+export const Paragraph = styled.div<ParagraphProps>`
   font-family: "Lato", sans-serif;
   font-size: 2rem;
   font-weight: 300;
