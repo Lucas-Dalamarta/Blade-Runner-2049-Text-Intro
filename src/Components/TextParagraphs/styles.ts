@@ -1,16 +1,29 @@
-import styled from 'styled-components'
+import styled, { keyframes } from "styled-components";
 
-export const Paragraph = styled.p`
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
+export const Paragraph = styled.div`
   font-family: "Lato", sans-serif;
   font-size: 2rem;
-  font-weight: lighter;
+  font-weight: 300;
   letter-spacing: 3px;
+  
+  opacity: 0;
+  animation: ${fadeIn} 5s linear ${props => props.delay}s;
+  animation-fill-mode: forwards;
 
-  + p {
+  & + div {
     margin-top: 40px;
   }
 
-  > strong {
+  > span {
     color: red;
     margin-right: 8px;
   }

@@ -1,11 +1,8 @@
-import { Paragraph } from './styles'
+import * as S from './styles'
 
-const TextParagraphs = ({ children }) => {
-  return (
-    <Paragraph>
-      {children}
-    </Paragraph>
-  );
+
+const TextParagraphs = ({ children, delay }) => {
+  return <S.Paragraph delay={delay}>{children}</S.Paragraph>;
 };
 
 export default TextParagraphs;
