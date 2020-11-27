@@ -14,9 +14,9 @@ export const Paragraph = styled.div`
   font-size: 2rem;
   font-weight: 300;
   letter-spacing: 3px;
-  
+
   opacity: 0;
-  animation: ${fadeIn} 5s linear ${props => props.delay}s;
+  animation: ${fadeIn} 5s linear ${(props) => props.delay}s;
   animation-fill-mode: forwards;
 
   & + div {
@@ -26,5 +26,9 @@ export const Paragraph = styled.div`
   > span {
     color: red;
     margin-right: 8px;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1rem;
   }
 `;

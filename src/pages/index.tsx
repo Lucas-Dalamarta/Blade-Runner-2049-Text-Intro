@@ -9,6 +9,11 @@ const Container = styled.div`
   flex-direction: column;
 
   height: 100vh;
+
+  @media (max-width: 800px) {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 `;
 
 const Home = () => {
