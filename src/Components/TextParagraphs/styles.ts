@@ -26,9 +26,14 @@ export const Paragraph = styled.div`
   > span {
     color: red;
     margin-right: 8px;
+    font-weight: bold;
   }
 
   @media (max-width: 800px) {
     font-size: 1rem;
+
+    & + div {
+      margin-top: 28px;
+    }
   }
 `;
